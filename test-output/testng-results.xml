@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142905.PNG'height="350" width="792"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142927.PNG'height="350" width="792"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142948.PNG'height="350" width="792"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143010.PNG'height="350" width="792"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/>]]>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143034.PNG'height="350" width="792"/>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-24T14:26:11 ICT" name="Default suite" finished-at="2022-06-24T14:28:05 ICT" duration-ms="113870">
+  <suite started-at="2022-06-24T14:28:35 ICT" name="Default suite" finished-at="2022-06-24T14:30:34 ICT" duration-ms="119297">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-06-24T14:26:11 ICT" name="Default test" finished-at="2022-06-24T14:28:05 ICT" duration-ms="113870">
+    <test started-at="2022-06-24T14:28:35 ICT" name="Default test" finished-at="2022-06-24T14:30:34 ICT" duration-ms="119297">
       <class name="com.nexsoft.runner.NewListNameRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:11 ICT" name="setUpClass" finished-at="2022-06-24T14:26:11 ICT" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:28:35 ICT" name="setUpClass" finished-at="2022-06-24T14:28:36 ICT" duration-ms="687" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a8a3ada]]>
+                <![CDATA[org.testng.TestRunner@1946384]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:26:34 ICT" duration-ms="22790" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:28:36 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:29:06 ICT" duration-ms="30275" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -49,115 +49,52 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:34 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:26:56 ICT" duration-ms="21757" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Input list name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add new to do list header"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Cached elements 'By.xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id='com.lolo.io.onelist:id/textView']' do not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-S76SA9N', ip: '10.0.0.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9835824a-1219-442d-875f-db73f04ea0ee, getElementText {id=00000000-0000-1da8-ffff-ffff000000ba}]
+Capabilities {appium:appActivity: com.lolo.io.onelist.MainAct..., appium:appPackage: com.lolo.io.onelist, appium:databaseEnabled: false, appium:desired: {appActivity: com.lolo.io.onelist.MainAct..., appPackage: com.lolo.io.onelist, platformName: android, platformVersion: 11, uid: 52c5c997}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: 52c5c997, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 52c5c997, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:uid: 52c5c997, appium:viewportRect: {height: 2152, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (9835824a-1219-442d-875f-db73f04ea0ee)] -> xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id='com.lolo.io.onelist:id/textView']]
+Session ID: 9835824a-1219-442d-875f-db73f04ea0ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:17)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id='com.lolo.io.onelist:id/textView']' do not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-S76SA9N', ip: '10.0.0.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9835824a-1219-442d-875f-db73f04ea0ee, getElementText {id=00000000-0000-1da8-ffff-ffff000000ba}]
+Capabilities {appium:appActivity: com.lolo.io.onelist.MainAct..., appium:appPackage: com.lolo.io.onelist, appium:databaseEnabled: false, appium:desired: {appActivity: com.lolo.io.onelist.MainAct..., appPackage: com.lolo.io.onelist, platformName: android, platformVersion: 11, uid: 52c5c997}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: 52c5c997, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 52c5c997, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:uid: 52c5c997, appium:viewportRect: {height: 2152, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (9835824a-1219-442d-875f-db73f04ea0ee)] -> xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id='com.lolo.io.onelist:id/textView']]
+Session ID: 9835824a-1219-442d-875f-db73f04ea0ee
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:126)
+at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:10)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/>]]>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142905.PNG'height="350" width="792"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:27:18 ICT" duration-ms="22283" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Input list name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add new to do list header"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:27:18 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:27:40 ICT" duration-ms="22294" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Input list name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add new to do list header"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:31)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:27:40 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:28:05 ICT" duration-ms="24198" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:29:06 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:29:27 ICT" duration-ms="20632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,11 +109,68 @@ at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/s
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/>]]>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142927.PNG'height="350" width="792"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:28:05 ICT" name="tearDownClass" finished-at="2022-06-24T14:28:05 ICT" duration-ms="9" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:29:27 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:29:48 ICT" duration-ms="21667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142948.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:29:48 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:30:11 ICT" duration-ms="22313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143010.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:30:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:30:34 ICT" duration-ms="23548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143034.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:30:34 ICT" name="tearDownClass" finished-at="2022-06-24T14:30:34 ICT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

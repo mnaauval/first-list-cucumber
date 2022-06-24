@@ -9,35 +9,37 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">113.870</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">119.297</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.nexsoft.runner.NewListNameRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="3">1656055616266</td><td rowspan="3">22283</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.nexsoft.runner.NewListNameRunner</td><td><a href="#m3">runScenario</a></td><td rowspan="2">1656055660852</td><td rowspan="2">24198</td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nexsoft.runner.NewListNameRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1656055716173</td><td rowspan="1">30275</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.nexsoft.runner.NewListNameRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="4">1656055788771</td><td rowspan="4">22313</td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:24)
+<h2>Default test</h2><h3 id="m0">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142905.PNG'height="350" width="792"/></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]&apos; do not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-S76SA9N&apos;, ip: &apos;10.0.0.217&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9835824a-1219-442d-875f-db73f04ea0ee, getElementText {id=00000000-0000-1da8-ffff-ffff000000ba}]
+Capabilities {appium:appActivity: com.lolo.io.onelist.MainAct..., appium:appPackage: com.lolo.io.onelist, appium:databaseEnabled: false, appium:desired: {appActivity: com.lolo.io.onelist.MainAct..., appPackage: com.lolo.io.onelist, platformName: android, platformVersion: 11, uid: 52c5c997}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: 52c5c997, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 52c5c997, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:uid: 52c5c997, appium:viewportRect: {height: 2152, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (9835824a-1219-442d-875f-db73f04ea0ee)] -&gt; xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]]
+Session ID: 9835824a-1219-442d-875f-db73f04ea0ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:126)
+	at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:10)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:17)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:31)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143010.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143034.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142927.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nexsoft.runner.NewListNameRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Input list name&quot;</td><td>&quot;Add new to do list header&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142948.PNG'height="350" width="792"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 24 14:26:11 ICT 2022</td>
+<td>Started on:</td><td>Fri Jun 24 14:28:35 ICT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>113 seconds (113870 ms)</td>
+<tr><td>Total time:</td><td>119 seconds (119297 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,84 +77,62 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
-<a href="#Output-597623166" onClick='toggleBox("Output-597623166", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2036292945" onClick='toggleBox("Output-2036292945", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-597623166" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-597623166">
-<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/><br/>
+<a href="#Output-2036292945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2036292945">
+<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142905.PNG'height="350" width="792"/><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:24)
-</pre></div><a href='#' onClick='toggleBox("stack-trace597623166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace597623166'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:24)
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]&apos; do not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-S76SA9N&apos;, ip: &apos;10.0.0.217&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9835824a-1219-442d-875f-db73f04ea0ee, getElementText {id=00000000-0000-1da8-ffff-ffff000000ba}]
+Capabilities {appium:appActivity: com.lolo.io.onelist.MainAct..., appium:appPackage: com.lolo.io.onelist, appium:databaseEnabled: false, appium:desired: {appActivity: com.lolo.io.onelist.MainAct..., appPackage: com.lolo.io.onelist, platformName: android, platformVersion: 11, uid: 52c5c997}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: 52c5c997, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 52c5c997, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:uid: 52c5c997, appium:viewportRect: {height: 2152, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (9835824a-1219-442d-875f-db73f04ea0ee)] -&gt; xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]]
+Session ID: 9835824a-1219-442d-875f-db73f04ea0ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:126)
+	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2036292945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2036292945'><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]&apos; do not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-S76SA9N&apos;, ip: &apos;10.0.0.217&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9835824a-1219-442d-875f-db73f04ea0ee, getElementText {id=00000000-0000-1da8-ffff-ffff000000ba}]
+Capabilities {appium:appActivity: com.lolo.io.onelist.MainAct..., appium:appPackage: com.lolo.io.onelist, appium:databaseEnabled: false, appium:desired: {appActivity: com.lolo.io.onelist.MainAct..., appPackage: com.lolo.io.onelist, platformName: android, platformVersion: 11, uid: 52c5c997}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: 52c5c997, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 52c5c997, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:uid: 52c5c997, appium:viewportRect: {height: 2152, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (9835824a-1219-442d-875f-db73f04ea0ee)] -&gt; xpath: //androidx.recyclerview.widget.RecyclerView/android.widget.TextView[@resource-id=&apos;com.lolo.io.onelist:id/textView&apos;]]
+Session ID: 9835824a-1219-442d-875f-db73f04ea0ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:126)
+	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:10)
 </pre></div></td>
-<td>22</td>
-<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
-<tr>
-<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
-<a href="#Output-895259838" onClick='toggleBox("Output-895259838", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-895259838" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-895259838">
-<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/><br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:17)
-</pre></div><a href='#' onClick='toggleBox("stack-trace895259838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace895259838'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:17)
-</pre></div></td>
-<td>21</td>
-<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
-<tr>
-<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
-<a href="#Output-2061552777" onClick='toggleBox("Output-2061552777", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2061552777" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2061552777">
-<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/><br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:31)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2061552777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2061552777'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
-	at ?.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:31)
-</pre></div></td>
-<td>22</td>
+<td>30</td>
 <td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -167,27 +145,51 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
-<a href="#Output-2122225197" onClick='toggleBox("Output-2122225197", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1704927850" onClick='toggleBox("Output-1704927850", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2122225197" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2122225197">
-<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/><br/>
-</div>
-</td>
-<td></td>
-<td>24</td>
-<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
-<tr>
-<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
-<a href="#Output-1152524191" onClick='toggleBox("Output-1152524191", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1152524191" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1152524191">
-<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/><br/>
+<a href="#Output-1704927850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704927850">
+<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143010.PNG'height="350" width="792"/><br/>
 </div>
 </td>
 <td></td>
 <td>22</td>
+<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
+<tr>
+<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
+<a href="#Output-584698467" onClick='toggleBox("Output-584698467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-584698467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-584698467">
+<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_143034.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
+<tr>
+<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
+<a href="#Output-956480812" onClick='toggleBox("Output-956480812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-956480812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-956480812">
+<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142927.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
+<tr>
+<td title='com.nexsoft.runner.NewListNameRunner.runScenario()'><b>runScenario</b><br>Test class: com.nexsoft.runner.NewListNameRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Input list name", "Add new to do list header"<br/>
+<a href="#Output-508323203" onClick='toggleBox("Output-508323203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-508323203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-508323203">
+<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142948.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
 <td>com.nexsoft.runner.NewListNameRunner@305ffe9e</td></tr>
 </table><p>
 </body>
