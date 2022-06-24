@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SuiteTest" parallel="none">
+	<test name="1stList TODO">
+
+		<classes>
+			<class name="com.nexsoft.runner.NewListNameRunner"></class>
+		</classes>
+
+	</test>
+</suite>

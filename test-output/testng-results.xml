@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-24T14:26:11 ICT" name="Default suite" finished-at="2022-06-24T14:28:05 ICT" duration-ms="113870">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-24T14:26:11 ICT" name="Default test" finished-at="2022-06-24T14:28:05 ICT" duration-ms="113870">
+      <class name="com.nexsoft.runner.NewListNameRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:11 ICT" name="setUpClass" finished-at="2022-06-24T14:26:11 ICT" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a8a3ada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:26:34 ICT" duration-ms="22790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142634.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:34 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:26:56 ICT" duration-ms="21757" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
+at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142656.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:26:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:27:18 ICT" duration-ms="22283" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
+at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142718.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:27:18 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:27:40 ICT" duration-ms="22294" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.nexsoft.definitions.NewListName.showHeaderList(NewListName.java:133)
+at ✽.New list name showed in header(file:///D:/Project/Java/TestNG/FirstList/src/test/resources/features/NewListName.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142740.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:27:40 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:28:05 ICT" duration-ms="24198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input list name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new to do list header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\Project\Java\TestNG\FirstList\src\test\resources\SS\20220624_142805.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nexsoft.runner.NewListNameRunner@305ffe9e]" started-at="2022-06-24T14:28:05 ICT" name="tearDownClass" finished-at="2022-06-24T14:28:05 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nexsoft.runner.NewListNameRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
